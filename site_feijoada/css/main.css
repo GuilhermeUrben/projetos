@@ -3,6 +3,9 @@ body{
     height: 100%;
 }
 
+ul{
+    padding: 0px!important;
+}
 .menu-principal {
     width: 100%;
     background-color: rgb(38, 38, 73);
@@ -11,7 +14,7 @@ body{
 
 main{
     margin: 0 auto;
-    width: 750px;
+    width: 1000px;
     position: relative;
 }
 
@@ -29,23 +32,39 @@ main{
 }
 
 .redes-sociais {
-    width: 25%;
+    width: 15%;
     float: left;
 }
 
 .header-2 {
-    background-color: rgb(250, 249, 249);
-    width: 980px;
+    width: 1000px;
     margin: 0 auto;
+    padding: 20px;
+}
+.menu-urls{
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+
 }
 
 .menu ul li{
     display: inline-block;
-    color: black;
+    color: rgb(245, 241, 241);
+    margin-left: 15px;
+    height: 50px;
+}
+
+.menu ul li:hover{ 
+    border-bottom: 3px solid #00bac6; 
+}
+
+.menu ul li a:hover{
+    color: #00bac6;
+    margin-right: 15px;
 }
 
 .menu ul li a {
-    color:rgb(0, 0, 0);
+    color: #8b8b8b;
     text-decoration: none;
     font-size: 15px;
     text-transform: uppercase;
@@ -55,12 +74,25 @@ main{
 .menu{
     width: 70%;
     float: left;
+    margin-top: -6px;
     
 }
 
 .busca{
     width: 30%;
     float: right;
+    text-align: center;
+}
+.busca input{
+    background-image: url(../img/lupaPesquisa.png);
+    background-repeat: no-repeat;
+    background-position: 95%;
+    height: 10px;
+    width: 190px;
+    padding: 12px;
+    margin-top: 1px;
+    margin-left: -122px;
+    border: 1px solid #d6d6d6;
 }
 .col-100{
     width: 100%;
